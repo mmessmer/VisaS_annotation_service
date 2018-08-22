@@ -1,0 +1,58 @@
+(is|was|been|be) argued that
+not certain that
+(is|was|been|be) claimed that
+loosely speaking
+partially
+partly
+possible that
+impossible
+possibly
+probable that
+probably
+improbably
+not (all|every|many)
+unlikely
+not necessarily
+look(ed|s|ing)? like
+appear(s|ed|ing)? to
+believe(d|s|ing)?
+certain
+certainly
+likely
+unlikely
+almost
+barely
+definitely
+doubtful
+hardly
+I mean
+merely
+more or less
+#only
+#not only
+seem(s|ed|ing)? to
+slightly
+somewhat
+something like
+#(?!<a )sort of
+strictly speaking
+suggest(|ing|ed|s)?
+suggest(|ing|ed|s)? that
+tend(ing|ed|s)? to
+unclear whether
+
+#[Ii]t_\w+? (may_\w+? |could_\w+? )?(\w+?_RB )?(well_\w+? )?(\w+?_RB )?(be_\w+? |is_\w+? )(the_\w+? case_\w+? )?that
+It (may|could) be that
+It (may|could) well be that
+It (may|could) _RB well be that
+It is the case that
+
+#[Ii]t_PRP (has_VBZ|is_VBZ) (.+?_RB )?.+?_VBN that 
+#feeling_VBG that
+
+#notes : clearly is not hedging.
+#it could be the case that - covered by could
+#it might be suggested that - covered by might
+#feel that 
+#feels that
+#felt that : those are private verbs but not necessarily hedging.

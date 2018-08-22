@@ -1,0 +1,7 @@
+#\d+\.\d+:(most|several|many)_\S+? (\d+\.\d+:\S+?_(jj|vbg) )?(\d+\.\d+:\S+?_nn.?)
+#\d+\.\d+:(most)_\S+? (\d+\.\d+:\S+?_rb)
+#\d+\.\d+:(most|some|many)_\S+? (\d+\.\d+:of_IN) (\d+\.\d+:the_dt) (\d+\.\d+:.+?_nn.?)
+(most|several|many) _(JJ|VBG) _NN.?
+(most|several|many) _NN.?
+most _RB
+(most|some|many) of the _NN.?

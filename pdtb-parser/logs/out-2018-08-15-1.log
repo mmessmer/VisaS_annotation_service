@@ -1,0 +1,159 @@
+14:14:08.422 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+14:14:08.448 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+14:14:08.449 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+14:14:08.449 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+14:14:08.449 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+14:14:08.450 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+14:14:08.450 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+14:14:08.450 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+14:14:08.450 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+14:14:08.451 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file .\00001BI0514U10a.txt
+14:14:08.455 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+14:14:09.065 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: 00001BI0514U10a.txt
+14:14:09.138 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0
+14:14:09.700 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:1
+14:14:09.940 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:2
+14:14:10.180 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:3
+14:14:10.626 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:4
+14:14:10.696 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:5
+14:14:11.246 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:6
+14:14:11.546 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:7
+14:14:11.687 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:8
+14:14:11.767 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:9
+14:14:11.987 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:10
+14:14:12.174 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:11
+14:14:12.315 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:12
+14:14:12.443 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:13
+14:14:12.505 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:14
+14:14:12.593 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:15
+14:14:12.672 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:16
+14:14:12.798 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:17
+14:14:12.828 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:18
+14:14:12.961 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:19
+14:14:13.182 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:20
+14:14:13.747 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:21
+14:14:13.938 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:22
+14:14:14.045 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:23
+14:14:14.305 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:24
+14:14:14.422 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:25
+14:14:15.022 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:26
+14:14:15.076 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:27
+14:14:15.386 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:28
+14:14:15.473 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:29
+14:14:15.727 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:30
+14:14:15.786 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:31
+14:14:15.910 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:32
+14:14:15.991 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:33
+14:14:16.037 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:34
+14:14:16.126 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:35
+14:14:16.152 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:36
+14:14:16.738 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:37
+14:14:16.946 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:38
+14:14:17.012 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:39
+14:14:17.186 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:40
+14:14:17.205 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:41
+14:14:17.324 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:42
+14:14:17.416 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:43
+14:14:17.511 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:44
+14:14:17.530 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:45
+14:14:17.531 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:46
+14:14:17.562 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:47
+14:14:17.569 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:48
+14:14:17.596 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:49
+14:14:17.599 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:50
+14:14:17.655 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:51
+14:14:17.669 s.e.n.c.p.u.Corpus INFO  [main:976] - Tree generation for 00001BI0514U10a.txt is done. Trees are in C:\Users\morit\PycharmProjects\VisaS_annotation\pdtb-parser\./output/00001BI0514U10a.txt
+14:14:17.671 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:144] - Generating the spans of each node in the parse trees.
+14:14:17.701 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:189] - Done.
+14:14:17.701 c.e.n.c.p.r.PdtbParser INFO  [main:120] - Running the PDTB parser
+14:14:17.702 c.e.n.c.p.r.PdtbParser INFO  [main:122] - Running connective classifier...
+14:14:18.064 c.e.n.c.p.r.PdtbParser INFO  [main:124] - Done.
+14:14:18.065 c.e.n.c.p.r.PdtbParser INFO  [main:126] - Running argument position classifier...
+14:14:18.103 c.e.n.c.p.r.PdtbParser INFO  [main:128] - Done.
+14:14:18.105 c.e.n.c.p.r.PdtbParser INFO  [main:130] - Running argument extractor classifier...
+14:14:18.223 c.e.n.c.p.r.PdtbParser INFO  [main:133] - Done.
+14:14:18.223 c.e.n.c.p.r.PdtbParser INFO  [main:135] - Running Explicit classifier...
+14:14:18.239 c.e.n.c.p.r.PdtbParser INFO  [main:138] - Done.
+14:14:18.243 c.e.n.c.p.r.PdtbParser INFO  [main:140] - Running NonExplicit classifier...
+14:14:18.248 s.e.n.c.p.p.NonExplicitComp ERROR [main:1060] - The number of dependency trees (1) and parse trees (52) differ in article 00001BI0514U10a.txt with feature type ".res".
+14:22:54.087 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+14:22:54.095 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+14:22:54.096 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+14:22:54.096 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+14:22:54.096 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+14:22:54.096 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+14:22:54.097 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+14:22:54.097 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+14:22:54.097 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+14:22:54.098 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file .\00001BI0514U10a.txt
+14:22:54.101 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+14:22:54.687 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: 00001BI0514U10a.txt
+14:22:54.755 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0
+14:22:55.304 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:1
+14:22:55.549 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:2
+14:22:55.844 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:3
+14:22:56.319 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:4
+14:22:56.389 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:5
+14:22:56.878 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:6
+14:22:57.191 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:7
+14:22:57.317 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:8
+14:22:57.416 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:9
+14:22:57.626 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:10
+14:22:57.790 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:11
+14:22:57.980 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:12
+14:22:58.126 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:13
+14:22:58.177 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:14
+14:22:58.252 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:15
+14:22:58.329 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:16
+14:22:58.455 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:17
+14:22:58.482 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:18
+14:22:58.602 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:19
+14:22:58.834 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:20
+14:22:59.447 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:21
+14:22:59.657 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:22
+14:22:59.759 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:23
+14:23:00.009 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:24
+14:23:00.326 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:25
+14:23:01.025 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:26
+14:23:01.088 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:27
+14:23:01.739 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:28
+14:23:01.921 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:29
+14:23:02.275 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:30
+14:23:02.325 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:31
+14:23:02.448 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:32
+14:23:02.554 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:33
+14:23:02.628 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:34
+14:23:04.394 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:35
+14:23:04.485 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:36
+14:23:05.191 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:37
+14:23:05.554 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:38
+14:23:05.676 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:39
+14:23:05.957 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:40
+14:23:06.021 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:41
+14:23:06.370 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:42
+14:23:06.472 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:43
+14:23:06.629 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:44
+14:23:06.653 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:45
+14:23:06.657 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:46
+14:23:06.724 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:47
+14:23:06.730 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:48
+14:23:06.777 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:49
+14:23:06.780 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:50
+14:23:06.894 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:51
+14:23:06.928 s.e.n.c.p.u.Corpus INFO  [main:976] - Tree generation for 00001BI0514U10a.txt is done. Trees are in C:\Users\morit\PycharmProjects\VisaS_annotation\pdtb-parser\./output/00001BI0514U10a.txt
+14:23:06.930 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:144] - Generating the spans of each node in the parse trees.
+14:23:06.966 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:189] - Done.
+14:23:06.966 c.e.n.c.p.r.PdtbParser INFO  [main:120] - Running the PDTB parser
+14:23:06.973 c.e.n.c.p.r.PdtbParser INFO  [main:122] - Running connective classifier...
+14:23:07.426 c.e.n.c.p.r.PdtbParser INFO  [main:124] - Done.
+14:23:07.426 c.e.n.c.p.r.PdtbParser INFO  [main:126] - Running argument position classifier...
+14:23:07.477 c.e.n.c.p.r.PdtbParser INFO  [main:128] - Done.
+14:23:07.480 c.e.n.c.p.r.PdtbParser INFO  [main:130] - Running argument extractor classifier...
+14:23:07.662 c.e.n.c.p.r.PdtbParser INFO  [main:133] - Done.
+14:23:07.663 c.e.n.c.p.r.PdtbParser INFO  [main:135] - Running Explicit classifier...
+14:23:07.680 c.e.n.c.p.r.PdtbParser INFO  [main:138] - Done.
+14:23:07.683 c.e.n.c.p.r.PdtbParser INFO  [main:140] - Running NonExplicit classifier...
+14:23:07.688 s.e.n.c.p.p.NonExplicitComp ERROR [main:1060] - The number of dependency trees (1) and parse trees (52) differ in article 00001BI0514U10a.txt with feature type ".res".
+15:47:27.793 c.e.n.c.p.r.PdtbParser ERROR [main:62] - File .\pdtb-parser\test.txt does not exists. 
+15:47:51.692 c.e.n.c.p.r.PdtbParser ERROR [main:62] - File .\pdtb-parser\test.txt does not exists. 
+15:48:54.006 c.e.n.c.p.r.PdtbParser ERROR [main:62] - File .\pdtb-parser\test.txt does not exists. 
