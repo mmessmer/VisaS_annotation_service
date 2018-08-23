@@ -195,11 +195,29 @@ def get_paired_connectors(file):
 
 def get_all_annotations(filename,log):
     """
-    This is the main function for annotating all features to one file. It calls get_pattern_from_file
-    to collect and concatenate the result list for each individual feature. It then calls annotate_du_file
-    to add all annotations to the DU file based on the list of results.
-    :param filename: The XML DU file to be annotated
-    """
+        This is the main function for annotating all features to one file. It calls get_pattern_from_file
+        to collect and concatenate the result list for each individual feature. The results are then returned
+        as a dictionary (keys: input file names) with each key containing a dictionary which in turn contains a list of
+        dictionaries which are the actual results. These results dictionaries must contain string keys and values.
+        e.g.
+        {"file1_pos": {"paragraph1": [ {"sentID": 47,"spanStart": 15,"spanEnd": 15,"tag": "reinforcement"},
+                                        {...}],
+                       "paragraph2": [ {"sentID": 7,"spanStart": 17,"spanEnd": 21,"tag": "reinforcement"},
+                                        {...} ]},
+         "file1_raw": {"connectors": [ {"connective": "Furthermore",
+                                        "type": "Expansion",
+                                        "subtype": "Conjunction",
+                                        "arg1": "This essay ...",
+                                        "arg2": "it points out ..."
+                                        },
+                                        {"connective": "when",...} ]
+                       }
+        }
+
+        This structure must be kept, because it is converted into a Java data structure with strict typing!
+        Changes to the structure of the results must therefore also be done in the VisArgue code
+        :param filename: A text file (raw text or POS tagged) containing the essay to be analyzed
+        """
     results = {}
     log.info("Creating POS-tagged files and raw text files for '{}'".format(filename))
     # call function to creat a POS file (into directory ./output/POS by default)
